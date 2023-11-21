@@ -3,17 +3,30 @@
 
 .footer-link-Home, .footer-link-AddCoffe, .footer-link-About {
     display: inline-block;
-    width: 300px;
-    margin-left:30px;
-    color:blanchedalmond;
+    color: blanchedalmond;
 }
-.footer{
-   background-color:black;
-   height:50px;
-   width:auto;
+
+.footer-link-Home {
+    margin-left: 1000px;
 }
-.logo{
-    display:inline-block;
-    font-size:50px;
-    color:aliceblue;
+
+.footer-link-AddCoffe {
+    margin-left: 100px;
+}
+
+.footer-link-About {
+    margin-left: 100px;
+}
+
+.footer {
+    background-color: black;
+    height: 70px;
+    width: auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 40px;
+    color: aliceblue;
+    margin-left:10px;
 }
