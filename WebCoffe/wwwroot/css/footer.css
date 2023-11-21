@@ -1,0 +1,19 @@
+﻿body {
+}
+
+.footer-link-Home, .footer-link-AddCoffe, .footer-link-About {
+    display: inline-block;
+    width: 300px;
+    margin-left:30px;
+    color:blanchedalmond;
+}
+.footer{
+   background-color:black;
+   height:50px;
+   width:auto;
+}
+.logo{
+    display:inline-block;
+    font-size:40px;
+    color:aliceblue;
+}
