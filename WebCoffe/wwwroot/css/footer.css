@@ -4,10 +4,13 @@
 .footer-link-Home, .footer-link-AddCoffe, .footer-link-About {
     display: inline-block;
     color: blanchedalmond;
+    text-decoration:none;
+
 }
 
 .footer-link-Home {
     margin-left: 1000px;
+    
 }
 
 .footer-link-AddCoffe {
@@ -22,6 +25,7 @@
     background-color: black;
     height: 70px;
     width: auto;
+    
 }
 
 .logo {
@@ -29,4 +33,5 @@
     font-size: 40px;
     color: aliceblue;
     margin-left:10px;
+    text-decoration:none;
 }
