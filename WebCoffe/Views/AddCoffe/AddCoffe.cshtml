@@ -1,5 +1,14 @@
-﻿
-@{
+﻿@{
     Layout = "Leyat";
 }
-<h1>Dizayn</h1>
+<link rel="stylesheet" href="~/css/AddCoffeStyle.css" />
+@using (Html.BeginForm())
+{
+    <div class="add">
+        <label class="lblname">Coffe Name</label>
+        <input type="text" class="name" />
+        <label class="lblrecip">Recipe</label>
+        <input type="text" class="recipe" />
+        
+    </div>
+}
