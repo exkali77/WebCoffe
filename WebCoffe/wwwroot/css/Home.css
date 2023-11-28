@@ -1,0 +1,24 @@
+﻿body {
+}
+.sklet
+{
+    background-color:cadetblue;
+    width:auto;
+    height:840px;
+
+}
+.featured {
+    margin-right:300px;
+    background-color: orange;
+    height: 400px;
+    width: 1000px;
+    margin-top: 40px;
+    float: right;
+}
+
+.listis {
+    float: left;
+    width: 500px;
+    height: 500px;
+    background-color: crimson;
+}

@@ -1,5 +1,5 @@
 ﻿body {
-    background-image:url('../image/autumn-background-with-cup-of-coffee-free-photo.jpg');
+    background-image:url('../image/night-coffee-shop-thumb.jpg');
     background-size:cover;
 }
 .add{
@@ -7,7 +7,7 @@
     width:500px;
     height:600px;
     background-color:transparent;
-  backdrop-filter:blur(2px);
+  backdrop-filter:blur(5px);
      margin-left:37%;
     margin-top:100px;
     margin-bottom:105px;
@@ -64,11 +64,12 @@
      border:20px;
      border-radius:20px;
      color:white;
-     
+      
 }
     .submit:hover {
         background-color: #873e23;
         width: 210px;
         height: 60px;
+       
     }
    
