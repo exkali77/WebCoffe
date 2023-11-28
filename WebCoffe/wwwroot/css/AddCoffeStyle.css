@@ -1,29 +1,74 @@
 ﻿body {
+    background-image:url('../image/autumn-background-with-cup-of-coffee-free-photo.jpg');
+    background-size:cover;
 }
 .add{
     display:inline-block;
     width:500px;
     height:600px;
-    background-color:orangered;
-     margin-left:35%;
+    background-color:transparent;
+  backdrop-filter:blur(2px);
+     margin-left:37%;
     margin-top:100px;
-    margin-bottom:100px;
+    margin-bottom:105px;
+    border-radius:20px;
 }
+.name, .recipe {
+    border: none;
+    border-bottom: 3px solid #873e23;
+    outline: none;
+    background-color: transparent;
+} 
+.img
+    {
+        display:inline-block;
+        margin-left:100px;
+        width:300px;
+        height:300px;
+        margin-top:5px;
+
+    }
 .name{
  display:inline-block;
- margin-left:30px;
- margin-top:30px;
-
+ margin-left:45px;
+ margin-top:10px;
+ width:400px;
 }
 .recipe {
     display: inline-block;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 45px;
+    margin-top: 10px;
+    width:400px;
 }
-.lblname{
-
+.lblname, .lblrecip
+{ display: inline-block;
+  color:white;
+  
+  margin-left:45px;
+}
+.lblname {
+   margin-top:20px;
 }
 .lblrecip
 {
-
+    margin-top:40px;
 }
+.submit
+{
+    margin-top:30px;
+    margin-left:140px;
+    width:200px;
+    height:50px;
+    background-color:transparent;
+     border-block:none;
+     border:20px;
+     border-radius:20px;
+     color:white;
+     
+}
+    .submit:hover {
+        background-color: #873e23;
+        width: 210px;
+        height: 60px;
+    }
+   

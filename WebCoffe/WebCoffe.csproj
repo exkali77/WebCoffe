@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\image\2INfyy.jpg" />
+    <None Include="wwwroot\image\31ca2bcf105003bf97be1aaf9e564df6.jpg" />
+    <None Include="wwwroot\image\autumn-background-with-cup-of-coffee-free-photo.jpg" />
+    <None Include="wwwroot\image\black_coffee_2-wallpaper-5120x2880.jpg" />
+    <None Include="wwwroot\image\ee558b1d2578d8c74c310f914dc910f0.jpg" />
+    <None Include="wwwroot\image\glass_coffee_light_115603_1920x1080.jpg" />
+    <None Include="wwwroot\image\night-coffee-shop-thumb.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Cors" Version="2.2.0" />
@@ -21,6 +31,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="img\" />
   </ItemGroup>
 
 </Project>
