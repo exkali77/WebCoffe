@@ -1,24 +1,45 @@
 ﻿body {
 }
-.sklet
-{
-    background-color:cadetblue;
-    width:auto;
-    height:840px;
-
+.sklet {
+    background-color: cadetblue;
+    width: auto;
+    height: 840px;
 }
+
 .featured {
-    margin-right:300px;
+  
     background-color: orange;
-    height: 400px;
-    width: 1000px;
+    height: 750px;
+    width: 1400px;
     margin-top: 40px;
     float: right;
+   
 }
+.boos
+{
+    width:290px;
 
+}
 .listis {
+    margin-top:40px;
     float: left;
-    width: 500px;
-    height: 500px;
+    width: 290px;
+    height: 740px;
     background-color: crimson;
+    margin-left:160px;
+}
+.Title
+{
+    font-size:90px;
+    float:none;
+    margin-left:400px;
+    display:inline-block;
+    margin-top:100px;
+}
+.contents
+{
+    float:none;
+    display:inline-block;
+    margin-top:50px;
+
 }

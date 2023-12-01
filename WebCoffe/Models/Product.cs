@@ -2,9 +2,10 @@
 {
     public class Product
     {
-        public int id { get; set; }
+        public int ID { get; set; }
         public string name { get; set; }
-        public string Decription { get; set; }
-     
+        public string deskrption { get; set; }
+        public int clicks { get; set; }
+
     }
 }

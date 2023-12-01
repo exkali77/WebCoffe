@@ -5,11 +5,15 @@ namespace WebCoffe.Controllers
 {
     public class HomeController : Controller
     {
-       // private appDbContext _context;
+        private readonly appDbContext _context;
+        public HomeController(appDbContext context) 
+        {
+            _context = context;        
+        }
         public IActionResult Home()
         {
-           
-            return View();
+          var  data = _context.Coffe.ToList();
+            return View(data);
         }
     }
 }
