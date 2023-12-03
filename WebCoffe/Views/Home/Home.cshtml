@@ -3,32 +3,30 @@
 
     Layout = "Leyat";
 }
-<link href="~/css/home.css" rel="stylesheet" />
+
+<link href="~/css/Hom.css" rel="stylesheet" />
 @using (Html.BeginForm("Home","Home",FormMethod.Post))
 {
     <div class="sklet">
         <div class="featured">
-            @foreach (var item in Model)
-            {
-                 <div> <label class="Title"></label></div>
+            
+           
+                 <div> <label class="Title">@Model.</label></div>
            <div>
                 <label class="contents">asfdsfvzdgvbbfgbhfgffghhhshsdfhgh </label>
            </div>
-            }
+            
            
            
         </div>
-        <aside class="listis">
+        <div class="listis">
             @foreach (var product in Model)
             {
-                 <idv>
-              
-                <input type="text"value="@product.name" class="boos" />
-             
-                 </idv>
-            }   
-       
-           
-        </aside>
+               <idv>
+              <input name="Coffename" type="submit" value="@product.name" class="boos" /> 
+                   
+               </idv>
+            }  
+        </div>
     </div>
 }

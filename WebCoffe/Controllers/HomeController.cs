@@ -10,10 +10,18 @@ namespace WebCoffe.Controllers
         {
             _context = context;        
         }
+        [HttpGet]
         public IActionResult Home()
         {
           var  data = _context.Coffe.ToList();
             return View(data);
+        }
+        [HttpPost]
+        public IActionResult Home(Product product)
+        {
+            var valu = HttpContext.Request.Form["Coffename"];   
+            return View();
+
         }
     }
 }

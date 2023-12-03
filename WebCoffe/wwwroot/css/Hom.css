@@ -17,7 +17,7 @@
 }
 .boos
 {
-    width:290px;
+    width:279.5px;
 
 }
 .listis {
@@ -27,6 +27,8 @@
     height: 740px;
     background-color: crimson;
     margin-left:160px;
+    overflow-y:auto;
+    border:5px solid #ccc;
 }
 .Title
 {
@@ -38,6 +40,7 @@
 }
 .contents
 {
+
     float:none;
     display:inline-block;
     margin-top:50px;
